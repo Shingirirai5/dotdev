@@ -31,7 +31,33 @@
 </head>
 
 <body>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100657772317341");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
@@ -108,7 +134,7 @@
         <div class="section-title">
           <h2>Services</h2>
           <h3>We do offer awesome <span>Services</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <p>For any website development, website re-do's and website corrections, you can contact us.Our primary focus is on how to actually incorporate your website into your business and turn it into an asset that will actually contribute to the growth of your business.</p>
         </div>
 
         <div class="row">
@@ -119,8 +145,8 @@
               <p class="description">We create responsive websites for professionals, businesses and creators in need of some web expertise.
 			    Get a new custom website to help you reach your target customers, increase sales and successfully grow your business.
 				Eye-catching, well built websites, made to separate you from the crowded, competitive world out there!
-				We build websites that are customised to your business’s needs. 
-				We stay at the forefront of design and technological trends. We are as passionate about design as we are about building functional sites that your clients will navigate with ease. We are constantly learning more about the online space and modern technology being introduced. This in tern enables us to keep your site, and business space online, relevant.
+				We build websites that are customised to your business needs. 
+				We stay at the forefront of design and technological trends. We are as passionate about design as we are about building functional sites that your clients will navigate with ease. We are constantly learning more about the online space and modern technology being introduced. This in turn enables us to keep your site, and business space online, relevant.
 			  </p>
             </div>
           </div>
@@ -198,7 +224,7 @@ effect on the market.</p>
               <h3><a href="">Chat plugins</a></h3>
             </div>
 			<p class="description">
-			  Recieve messages directly from your website to your messenger app or Whatsapp to ensure you respond to any enquiries in real time.
+			  Receive messages directly from your website to your messenger app or Whatsapp to ensure you respond to any enquiries in real time.
 			  </p>
           </div>
 
@@ -227,7 +253,7 @@ effect on the market.</p>
               <h3><a href="">Daily backups</a></h3>
             </div>
 		<p class="description">
-			We do daily site and database backups in the event of system breaches or anything unfroseen situation that may result in data loss.
+			We do daily site and database backups in the event of system breaches or anything unforseen situation that may result in data loss.
           </p>
 		  </div>
       <div class="col-lg-3 col-md-4 col-6 mt-4">
