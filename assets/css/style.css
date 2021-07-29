@@ -951,7 +951,7 @@ section {
   border-radius: 8px;
   position: relative;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+  box-shadow: 0 -5px 3px -3px #F431C5, 0 5px 3px -3px #F431C5;
   overflow: hidden;
   border: 2px solid #f9f9f9;
 }
@@ -1033,7 +1033,8 @@ section {
 }
 
 .pricing .recommended {
-  border-color: #F431C5;
+  border-color: #fff;
+  box-shadow: 0px 2px 15px #F431C5;
 }
 
 .pricing .recommended .btn-buy {
@@ -1138,7 +1139,7 @@ section {
   padding: 40px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 0px 4px #F431C5;
-  box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+  box-shadow: 0 -5px 3px -3px #F431C5, 0 5px 3px -3px #F431C5;
   position: relative;
   background: #fff;
 }
