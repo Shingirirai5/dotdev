@@ -1137,7 +1137,7 @@ section {
   box-sizing: content-box;
   padding: 40px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 4px #F431C5;
   box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
   position: relative;
   background: #fff;
