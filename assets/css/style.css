@@ -677,7 +677,7 @@ section {
 
 .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
-  color: #F431C5;
+  color: #fff;
 }
 
 .services .icon-box:hover .icon i {
